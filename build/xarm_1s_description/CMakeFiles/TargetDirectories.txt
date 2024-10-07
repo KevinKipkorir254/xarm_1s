@@ -1,0 +1,9 @@
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/uninstall.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/xarm_1s_description_uninstall.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/test.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/edit_cache.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/rebuild_cache.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/list_install_components.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/install.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/install/local.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description/CMakeFiles/install/strip.dir

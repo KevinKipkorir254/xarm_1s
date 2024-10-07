@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description
+-- Install configuration: ""
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/launch
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/launch/xarm_1s_display.launch.py:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/launch/xarm_1s_display.launch.py
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/humerus.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/hand.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/wrist.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/tendon.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-left.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-left.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/README.md
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/README.md:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/shoulder.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/forearm.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/base.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/tendon.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/wrist.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/base.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/forearm.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/hand.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/finger.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/shoulder.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-right.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/finger.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/humerus.stl:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-right.stl
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/rviz
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/rviz/rviz_sim.rviz
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/rviz/rviz_sim.rviz:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s.urdf.xacro:Zone.Identifier
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s.urdf.xacro
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/package_run_dependencies/xarm_1s_description
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/parent_prefix_path/xarm_1s_description
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/ament_prefix_path.sh
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/ament_prefix_path.dsv
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/path.sh
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/path.dsv
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.bash
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.sh
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.zsh
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.dsv
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.dsv
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/packages/xarm_1s_description
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/cmake/xarm_1s_descriptionConfig.cmake
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/cmake/xarm_1s_descriptionConfig-version.cmake
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.xml
