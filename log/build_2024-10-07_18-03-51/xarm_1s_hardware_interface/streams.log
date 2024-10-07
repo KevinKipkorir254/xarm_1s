@@ -1,0 +1,59 @@
+[0.218s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/xarm_1s/install/xarm_hardware_interface:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface
+[0.713s] -- The C compiler identification is GNU 11.4.0
+[1.809s] -- The CXX compiler identification is GNU 11.4.0
+[2.526s] -- Detecting C compiler ABI info
+[2.843s] -- Detecting C compiler ABI info - done
+[2.859s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.871s] -- Detecting C compile features
+[2.872s] -- Detecting C compile features - done
+[2.881s] -- Detecting CXX compiler ABI info
+[3.260s] -- Detecting CXX compiler ABI info - done
+[3.279s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.279s] -- Detecting CXX compile features
+[3.280s] -- Detecting CXX compile features - done
+[3.317s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.785s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.152s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[4.628s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.657s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.701s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.857s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.151s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.183s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[5.361s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.415s] -- Looking for pthread.h
+[5.742s] -- Looking for pthread.h - found
+[5.742s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.051s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.052s] -- Found Threads: TRUE  
+[6.430s] -- Found hardware_interface: 2.35.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[10.258s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[10.259s] -- Checking for module 'libserial'
+[10.295s] --   Found libserial, version 1.0.0
+[10.660s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.894s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.895s] -- Configured cppcheck include dirs: /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include;/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/
+[10.895s] -- Configured cppcheck exclude dirs and/or files: 
+[10.900s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.904s] -- Added test 'lint_cmake' to check CMake code style
+[10.906s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.910s] -- Added test 'uncrustify' to check C / C++ code style
+[10.910s] -- Configured uncrustify additional arguments: 
+[10.913s] -- Added test 'xmllint' to check XML markup files
+[10.921s] -- Configuring done
+[11.078s] -- Generating done
+[11.082s] -- Build files have been written to: /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface
+[11.121s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/xarm_1s/install/xarm_hardware_interface:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface
+[11.124s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/xarm_1s/install/xarm_hardware_interface:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface -- -j8 -l8
+[11.257s] [ 50%] [32mBuilding CXX object CMakeFiles/xarm_1s_hardware_interface.dir/src/hardware_interface.cpp.o[0m
+[11.277s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kxarm_1s_hardware_interface/robotic_arm_hw_interface.hpp: No such file or directory
+[11.277s]     1 | #include [01;31m[K"xarm_1s_hardware_interface/robotic_arm_hw_interface.hpp"[m[K
+[11.277s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.277s] compilation terminated.
+[11.279s] gmake[2]: *** [CMakeFiles/xarm_1s_hardware_interface.dir/build.make:76: CMakeFiles/xarm_1s_hardware_interface.dir/src/hardware_interface.cpp.o] Error 1
+[11.279s] [ 50%] Built target ament_cmake_python_copy_xarm_1s_hardware_interface
+[11.280s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/xarm_1s_hardware_interface.dir/all] Error 2
+[11.280s] gmake[1]: *** Waiting for unfinished jobs....
+[11.282s] gmake: *** [Makefile:146: all] Error 2
+[11.288s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/robotics_inc/xarm_1s/install/xarm_hardware_interface:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface -- -j8 -l8

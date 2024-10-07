@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
+<robot name="xarm_1s" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-<robot name="xarm_1s">
+    <!-- Include ros2 control plugin-->
+    <xacro:include filename = "$(find xarm_1s_description)/urdf/xarm_1s_ros2_control.xacro"/>
 
     <link name="base_link">
         <visual>

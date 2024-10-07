@@ -1,0 +1,4 @@
+source;share/xarm_1s_hardware_interface/environment/ament_prefix_path.sh
+source;share/xarm_1s_hardware_interface/environment/library_path.sh
+source;share/xarm_1s_hardware_interface/environment/path.sh
+source;share/xarm_1s_hardware_interface/environment/pythonpath.sh

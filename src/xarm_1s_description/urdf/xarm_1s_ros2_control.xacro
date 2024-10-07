@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<robot name="robotic_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <ros2_control type = "system" name = "RobotArm">
+        <hardware>
+            <plugin>robotic_arm_controllers/RoboticArmHWInterface</plugin>
+            <!--<param name="port_">/dev/ttyUSB0</param>-->
+            <!--<param name="baud_rate">9600</param>-->
+        </hardware>  
+         
+    <!-- Interfaces -->
+    <joint name="shoulder_pan">
+        <command_interface name="position">
+            <param name = "min">-1.57</param>
+            <param name = "max">1.57</param>
+        </command_interface>
+        <state_interface name="position"/>
+    </joint>
+
+    <joint name="shoulder_lift">
+        <command_interface name="position">
+            <param name = "min">-1.57</param>
+            <param name = "max">1.57</param>
+        </command_interface>
+        <state_interface name="position"/>
+    </joint>
+
+    <joint name="elbow">
+        <command_interface name="position">
+            <param name = "min">-1.57</param>
+            <param name = "max">1.57</param>
+        </command_interface>
+        <state_interface name="position"/>
+    </joint>
+
+    <joint name="wrist_flex">
+        <command_interface name="position">
+            <param name = "min">1.57</param>
+            <param name = "max">-1.57</param>
+        </command_interface>
+        <state_interface name="position"/>
+    </joint>
+
+    <joint name="wrist_roll">
+        <command_interface name="position">
+            <param name = "min">-1.57</param>
+            <param name = "max">1.57</param>
+        </command_interface>
+        <state_interface name="position"/>
+    </joint>
+
+    <joint name="grip_left">
+        <command_interface name="position">
+            <param name = "min">-1.57</param>
+            <param name = "max">0.0</param>
+        </command_interface>
+        <state_interface name="position"/>
+    </joint>
+</ros2_control>
+</robot>
