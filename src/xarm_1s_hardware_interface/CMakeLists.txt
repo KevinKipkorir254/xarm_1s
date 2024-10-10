@@ -15,20 +15,44 @@ find_package(PkgConfig REQUIRED)
 
 pkg_check_modules(SERIAL libserial)
 
+# Manually specify hidapi paths
+set(HIDAPI_INCLUDE_DIR "/usr/include")
+set(HIDAPI_LIBRARY "/usr/lib/x86_64-linux-gnu/libhidapi-libusb.so")
+
+# Find hidapi manually
+find_path(HIDAPI_INCLUDE_DIR NAMES hidapi.h PATH_SUFFIXES hidapi)
+find_library(HIDAPI_LIBRARY NAMES hidapi-libusb)
+
+if(NOT HIDAPI_INCLUDE_DIR OR NOT HIDAPI_LIBRARY)
+    message(FATAL_ERROR "hidapi not found. Please install libhidapi-dev.")
+endif()
+
+
+# Add hidapi to your include directories
+include_directories(
+  include
+  ${HIDAPI_INCLUDE_DIR}
+)
+
 add_library(
   ${PROJECT_NAME} SHARED
   src/hardware_interface.cpp
+  src/servo.cpp
+  src/util.cpp
+  src/xarm.cpp
 )
 
 target_include_directories(
   ${PROJECT_NAME} PRIVATE
   include
   "${SERIAL_INCLUDE_DIRS}"
+  ${HIDAPI_INCLUDE_DIR}
 )
 
 target_link_libraries(
   ${PROJECT_NAME}
   "${SERIAL_LDFLAGS}"
+  ${HIDAPI_LIBRARY}
 )
 
 ament_target_dependencies(${PROJECT_NAME}
@@ -74,7 +98,8 @@ ament_export_dependencies(
   rclcpp_lifecycle
   rclcpp
   pluginlib
-  hardware_interface  
+  hardware_interface 
+  hidapi
 )
 # uncomment the following section in order to fill in
 # further dependencies manually.

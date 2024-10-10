@@ -1,0 +1,68 @@
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Controller::recv(uint8_t)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:169:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  169 | std::vector<uint8_t> Controller::recv([01;35m[Kuint8_t cmd[m[K) {
+      |                                       [01;35m[K~~~~~~~~^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kvoid Controller::usbEventHandler(const std::vector<unsigned char>&, int)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:180:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  180 | void Controller::usbEventHandler(const std::vector<uint8_t>& data, [01;35m[Kint event_type[m[K) {
+      |                                                                    [01;35m[K~~~~^~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual robotic_arm_controllers::CallbackReturn robotic_arm_controllers::RoboticArmHWInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:90:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   90 | CallbackReturn RoboticArmHWInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual robotic_arm_controllers::CallbackReturn robotic_arm_controllers::RoboticArmHWInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:165:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  165 | CallbackReturn RoboticArmHWInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robotic_arm_controllers::RoboticArmHWInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:173:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  173 | hardware_interface::return_type RoboticArmHWInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:174:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  174 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robotic_arm_controllers::RoboticArmHWInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:228:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  228 | hardware_interface::return_type RoboticArmHWInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:229:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  229 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kint robotic_arm_controllers::RoboticArmHWInterface::recv(int)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:271:27:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kconst class LibSerial::ReadTimeout[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+  271 |   }catch(const LibSerial::[01;35m[KReadTimeout[m[K)
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:65[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/hardware_interface.hpp:4[m[K,
+                 from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:1[m[K:
+/usr/include/c++/11/bits/stl_construct.h: In instantiation of ‘[01m[Kvoid std::_Construct(_Tp*, _Args&& ...) [with _Tp = Servo; _Args = {}][m[K’:
+[01m[K/usr/include/c++/11/bits/stl_uninitialized.h:579:18:[m[K   required from ‘[01m[Kstatic _ForwardIterator std::__uninitialized_default_n_1<_TrivialValueType>::__uninit_default_n(_ForwardIterator, _Size) [with _ForwardIterator = Servo*; _Size = long unsigned int; bool _TrivialValueType = false][m[K’
+[01m[K/usr/include/c++/11/bits/stl_uninitialized.h:640:20:[m[K   required from ‘[01m[K_ForwardIterator std::__uninitialized_default_n(_ForwardIterator, _Size) [with _ForwardIterator = Servo*; _Size = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_uninitialized.h:704:44:[m[K   required from ‘[01m[K_ForwardIterator std::__uninitialized_default_n_a(_ForwardIterator, _Size, std::allocator<_Tp>&) [with _ForwardIterator = Servo*; _Size = long unsigned int; _Tp = Servo][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:1606:36:[m[K   required from ‘[01m[Kvoid std::vector<_Tp, _Alloc>::_M_default_initialize(std::vector<_Tp, _Alloc>::size_type) [with _Tp = Servo; _Alloc = std::allocator<Servo>; std::vector<_Tp, _Alloc>::size_type = long unsigned int][m[K’
+[01m[K/usr/include/c++/11/bits/stl_vector.h:512:9:[m[K   required from ‘[01m[Kstd::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = Servo; _Alloc = std::allocator<Servo>; std::vector<_Tp, _Alloc>::size_type = long unsigned int; std::vector<_Tp, _Alloc>::allocator_type = std::allocator<Servo>][m[K’
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:148:40:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/stl_construct.h:119:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KServo::Servo()[m[K’
+  119 |       [01;31m[K::new((void*)__p) _Tp(std::forward<_Args>(__args)...)[m[K;
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:10[m[K,
+                 from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/hardware_interface.hpp:10[m[K,
+                 from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:1[m[K:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:9:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(int, float)[m[K’
+    9 |     [01;36m[KServo[m[K(int servo_id, float angle);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:9:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:8:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KServo::Servo(int, int)[m[K’
+    8 |     [01;36m[KServo[m[K(int servo_id, int position = 500);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:8:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:6:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(const Servo&)[m[K’
+    6 | class [01;36m[KServo[m[K {
+      |       [01;36m[K^~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:6:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:6:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr Servo::Servo(Servo&&)[m[K’
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/servo.hpp:6:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/xarm_1s_hardware_interface.dir/build.make:76: CMakeFiles/xarm_1s_hardware_interface.dir/src/hardware_interface.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/xarm_1s_hardware_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

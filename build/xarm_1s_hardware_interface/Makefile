@@ -260,6 +260,78 @@ src/hardware_interface.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/hardware_interface.cpp.s
 .PHONY : src/hardware_interface.cpp.s
 
+src/servo.o: src/servo.cpp.o
+.PHONY : src/servo.o
+
+# target to build an object file
+src/servo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/servo.cpp.o
+.PHONY : src/servo.cpp.o
+
+src/servo.i: src/servo.cpp.i
+.PHONY : src/servo.i
+
+# target to preprocess a source file
+src/servo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/servo.cpp.i
+.PHONY : src/servo.cpp.i
+
+src/servo.s: src/servo.cpp.s
+.PHONY : src/servo.s
+
+# target to generate assembly for a file
+src/servo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/servo.cpp.s
+.PHONY : src/servo.cpp.s
+
+src/util.o: src/util.cpp.o
+.PHONY : src/util.o
+
+# target to build an object file
+src/util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/util.cpp.o
+.PHONY : src/util.cpp.o
+
+src/util.i: src/util.cpp.i
+.PHONY : src/util.i
+
+# target to preprocess a source file
+src/util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/util.cpp.i
+.PHONY : src/util.cpp.i
+
+src/util.s: src/util.cpp.s
+.PHONY : src/util.s
+
+# target to generate assembly for a file
+src/util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/util.cpp.s
+.PHONY : src/util.cpp.s
+
+src/xarm.o: src/xarm.cpp.o
+.PHONY : src/xarm.o
+
+# target to build an object file
+src/xarm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/xarm.cpp.o
+.PHONY : src/xarm.cpp.o
+
+src/xarm.i: src/xarm.cpp.i
+.PHONY : src/xarm.i
+
+# target to preprocess a source file
+src/xarm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/xarm.cpp.i
+.PHONY : src/xarm.cpp.i
+
+src/xarm.s: src/xarm.cpp.s
+.PHONY : src/xarm.s
+
+# target to generate assembly for a file
+src/xarm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/xarm_1s_hardware_interface.dir/build.make CMakeFiles/xarm_1s_hardware_interface.dir/src/xarm.cpp.s
+.PHONY : src/xarm.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -281,6 +353,15 @@ help:
 	@echo "... src/hardware_interface.o"
 	@echo "... src/hardware_interface.i"
 	@echo "... src/hardware_interface.s"
+	@echo "... src/servo.o"
+	@echo "... src/servo.i"
+	@echo "... src/servo.s"
+	@echo "... src/util.o"
+	@echo "... src/util.i"
+	@echo "... src/util.s"
+	@echo "... src/xarm.o"
+	@echo "... src/xarm.i"
+	@echo "... src/xarm.s"
 .PHONY : help
 
 

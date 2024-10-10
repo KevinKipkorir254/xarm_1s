@@ -1,0 +1,54 @@
+[0.294s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description -- -j8 -l8
+[0.369s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description -- -j8 -l8
+[0.437s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description
+[0.451s] -- Install configuration: ""
+[0.452s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/launch
+[0.452s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/launch/xarm_1s_display.launch.py:Zone.Identifier
+[0.453s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/launch/xarm_1s_ros2_control.launch.py
+[0.453s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/launch/xarm_1s_display.launch.py
+[0.453s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes
+[0.454s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/humerus.stl
+[0.454s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/hand.stl
+[0.454s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/wrist.stl
+[0.455s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/tendon.stl:Zone.Identifier
+[0.455s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-left.stl
+[0.455s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-left.stl:Zone.Identifier
+[0.456s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/README.md
+[0.456s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/README.md:Zone.Identifier
+[0.456s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/shoulder.stl:Zone.Identifier
+[0.456s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/forearm.stl:Zone.Identifier
+[0.457s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/base.stl:Zone.Identifier
+[0.457s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/tendon.stl
+[0.457s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/wrist.stl:Zone.Identifier
+[0.457s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/base.stl
+[0.458s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/forearm.stl
+[0.458s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/hand.stl:Zone.Identifier
+[0.458s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/finger.stl
+[0.458s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/shoulder.stl
+[0.458s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-right.stl:Zone.Identifier
+[0.459s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/finger.stl:Zone.Identifier
+[0.459s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/humerus.stl:Zone.Identifier
+[0.459s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/meshes/carpal-right.stl
+[0.459s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/rviz
+[0.460s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/rviz/rviz_sim.rviz
+[0.460s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/rviz/rviz_sim.rviz:Zone.Identifier
+[0.460s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf
+[0.460s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s.urdf.xacro:Zone.Identifier
+[0.460s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s.urdf.xacro
+[0.461s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s_ros2_control.xacro
+[0.461s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/package_run_dependencies/xarm_1s_description
+[0.461s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/parent_prefix_path/xarm_1s_description
+[0.461s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/ament_prefix_path.sh
+[0.462s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/ament_prefix_path.dsv
+[0.462s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/path.sh
+[0.462s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/path.dsv
+[0.462s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.bash
+[0.463s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.sh
+[0.463s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.zsh
+[0.463s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/local_setup.dsv
+[0.464s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.dsv
+[0.464s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/packages/xarm_1s_description
+[0.464s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/cmake/xarm_1s_descriptionConfig.cmake
+[0.464s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/cmake/xarm_1s_descriptionConfig-version.cmake
+[0.465s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.xml
+[0.468s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description

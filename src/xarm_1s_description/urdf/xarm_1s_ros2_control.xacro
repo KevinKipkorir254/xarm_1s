@@ -3,7 +3,7 @@
     <ros2_control type = "system" name = "RobotArm">
         <hardware>
             <plugin>robotic_arm_controllers/RoboticArmHWInterface</plugin>
-            <!--<param name="port_">/dev/ttyUSB0</param>-->
+            <param name="port_">/dev/ttyUSB0</param>
             <!--<param name="baud_rate">9600</param>-->
         </hardware>  
          

@@ -1,0 +1,136 @@
+[0.041s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface -- -j8 -l8
+[0.145s] [35m[1mConsolidate compiler generated dependencies of target xarm_1s_hardware_interface[0m
+[0.197s] [  0%] Built target ament_cmake_python_copy_xarm_1s_hardware_interface
+[0.213s] [ 20%] [32mBuilding CXX object CMakeFiles/xarm_1s_hardware_interface.dir/src/hardware_interface.cpp.o[0m
+[0.218s] [ 40%] [32mBuilding CXX object CMakeFiles/xarm_1s_hardware_interface.dir/src/xarm.cpp.o[0m
+[1.127s] running egg_info
+[1.128s] writing xarm_1s_hardware_interface.egg-info/PKG-INFO
+[1.129s] writing dependency_links to xarm_1s_hardware_interface.egg-info/dependency_links.txt
+[1.129s] writing top-level names to xarm_1s_hardware_interface.egg-info/top_level.txt
+[1.136s] reading manifest file 'xarm_1s_hardware_interface.egg-info/SOURCES.txt'
+[1.139s] writing manifest file 'xarm_1s_hardware_interface.egg-info/SOURCES.txt'
+[1.256s] [ 40%] Built target ament_cmake_python_build_xarm_1s_hardware_interface_egg
+[6.367s] In file included from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:6[m[K:
+[6.368s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_device[m[K’ does not name a type
+[6.368s]    43 |     [01;31m[Khid_device[m[K* device_;  // This will be either SerialPort* or hid_device* based on the connection type
+[6.368s]       |     [01;31m[K^~~~~~~~~~[m[K
+[6.383s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:[m[K In member function ‘[01m[Kvoid Controller::printDeviceInfo()[m[K’:
+[6.383s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:48:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.383s]    48 |         if (hid_get_manufacturer_string([01;31m[Kdevice_[m[K, wstr, 255) >= 0) {
+[6.384s]       |                                         [01;31m[K^~~~~~~[m[K
+[6.408s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:48:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_get_manufacturer_string[m[K’ was not declared in this scope
+[6.409s]    48 |         if ([01;31m[Khid_get_manufacturer_string[m[K(device_, wstr, 255) >= 0) {
+[6.409s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.423s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.423s]    52 |         if (hid_get_product_string([01;31m[Kdevice_[m[K, wstr, 255) >= 0) {
+[6.423s]       |                                    [01;31m[K^~~~~~~[m[K
+[6.449s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_get_product_string[m[K’ was not declared in this scope
+[6.450s]    52 |         if ([01;31m[Khid_get_product_string[m[K(device_, wstr, 255) >= 0) {
+[6.450s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.454s] In file included from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/hardware_interface.hpp:10[m[K,
+[6.454s]                  from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:1[m[K:
+[6.454s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_device[m[K’ does not name a type
+[6.454s]    43 |     [01;31m[Khid_device[m[K* device_;  // This will be either SerialPort* or hid_device* based on the connection type
+[6.455s]       |     [01;31m[K^~~~~~~~~~[m[K
+[6.462s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:56:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.463s]    56 |         if (hid_get_serial_number_string([01;31m[Kdevice_[m[K, wstr, 255) >= 0) {
+[6.463s]       |                                          [01;31m[K^~~~~~~[m[K
+[6.467s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:[m[K In member function ‘[01m[Kvoid Controller::printDeviceInfo()[m[K’:
+[6.468s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:48:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.468s]    48 |         if (hid_get_manufacturer_string([01;31m[Kdevice_[m[K, wstr, 255) >= 0) {
+[6.468s]       |                                         [01;31m[K^~~~~~~[m[K
+[6.485s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_get_serial_number_string[m[K’ was not declared in this scope
+[6.485s]    56 |         if ([01;31m[Khid_get_serial_number_string[m[K(device_, wstr, 255) >= 0) {
+[6.486s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.489s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In constructor ‘[01m[KController::Controller(const string&, bool)[m[K’:
+[6.489s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:28:99:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KController[m[K’ does not have any field named ‘[01m[Kdevice[m[K’
+[6.490s]    28 | Controller::Controller(const std::string& com_port, bool debug) : debug(debug), is_serial(false), [01;31m[Kdevice[m[K(nullptr), usb_recv_event(false) {
+[6.490s]       |                                                                                                   [01;31m[K^~~~~~[m[K
+[6.494s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:48:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_get_manufacturer_string[m[K’ was not declared in this scope
+[6.495s]    48 |         if ([01;31m[Khid_get_manufacturer_string[m[K(device_, wstr, 255) >= 0) {
+[6.495s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.503s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.504s]    39 |         [01;31m[Kdevice_[m[K = hid_open(0x0483, 0x5750, nullptr);
+[6.504s]       |         [01;31m[K^~~~~~~[m[K
+[6.506s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:28:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcom_port[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.507s]    28 | Controller::Controller([01;35m[Kconst std::string& com_port[m[K, bool debug) : debug(debug), is_serial(false), device(nullptr), usb_recv_event(false) {
+[6.507s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.511s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:52:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.512s]    52 |         if (hid_get_product_string([01;31m[Kdevice_[m[K, wstr, 255) >= 0) {
+[6.512s]       |                                    [01;31m[K^~~~~~~[m[K
+[6.523s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In destructor ‘[01m[KController::~Controller()[m[K’:
+[6.524s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:54:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.524s]    54 |         if ([01;31m[Kdevice_[m[K) {
+[6.524s]       |             [01;31m[K^~~~~~~[m[K
+[6.538s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_get_product_string[m[K’ was not declared in this scope
+[6.539s]    52 |         if ([01;31m[Khid_get_product_string[m[K(device_, wstr, 255) >= 0) {
+[6.539s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.555s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:56:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice_[m[K’ was not declared in this scope
+[6.556s]    56 |         if (hid_get_serial_number_string([01;31m[Kdevice_[m[K, wstr, 255) >= 0) {
+[6.556s]       |                                          [01;31m[K^~~~~~~[m[K
+[6.562s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kvoid Controller::send(uint8_t, const std::vector<unsigned char, std::allocator<unsigned char> >&)[m[K’:
+[6.562s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:201:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice[m[K’ was not declared in this scope
+[6.562s]   201 |         hid_write(static_cast<hid_device*>([01;31m[Kdevice[m[K), report_data.data(), report_data.size());
+[6.562s]       |                                            [01;31m[K^~~~~~[m[K
+[6.575s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > Controller::recv(uint8_t)[m[K’:
+[6.575s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:210:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice[m[K’ was not declared in this scope
+[6.575s]   210 |         int res = hid_read_timeout(static_cast<hid_device*>([01;31m[Kdevice[m[K), buffer.data(), buffer.size(), 50);
+[6.575s]       |                                                             [01;31m[K^~~~~~[m[K
+[6.579s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kvoid Controller::usbEventHandler(const std::vector<unsigned char, std::allocator<unsigned char> >&, int)[m[K’:
+[6.580s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:227:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.580s]   227 | void Controller::usbEventHandler(const std::vector<uint8_t>& data, [01;35m[Kint event_type[m[K) {
+[6.580s]       |                                                                    [01;35m[K~~~~^~~~~~~~~~[m[K
+[6.586s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:56:13:[m[K [01;31m[Kerror: [m[K‘[01m[Khid_get_serial_number_string[m[K’ was not declared in this scope
+[6.586s]    56 |         if ([01;31m[Khid_get_serial_number_string[m[K(device_, wstr, 255) >= 0) {
+[6.586s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.673s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual robotic_arm_controllers::CallbackReturn robotic_arm_controllers::RoboticArmHWInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[6.673s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:92:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.674s]    92 | CallbackReturn RoboticArmHWInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[6.674s]       |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.674s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual robotic_arm_controllers::CallbackReturn robotic_arm_controllers::RoboticArmHWInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[6.674s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:106:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.674s]   106 | CallbackReturn RoboticArmHWInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[6.674s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[6.676s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robotic_arm_controllers::RoboticArmHWInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.676s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:114:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.676s]   114 | hardware_interface::return_type RoboticArmHWInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+[6.677s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.677s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:115:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.677s]   115 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+[6.677s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.678s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robotic_arm_controllers::RoboticArmHWInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.678s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:154:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.678s]   154 | hardware_interface::return_type RoboticArmHWInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+[6.678s]       |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[6.679s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:155:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.679s]   155 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+[6.679s]       |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.679s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kint robotic_arm_controllers::RoboticArmHWInterface::recv(int)[m[K’:
+[6.679s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:197:27:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kconst class LibSerial::ReadTimeout[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+[6.679s]   197 |   }catch(const LibSerial::[01;35m[KReadTimeout[m[K)
+[6.679s]       |                           [01;35m[K^~~~~~~~~~~[m[K
+[6.925s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[6.925s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[6.925s]                  from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/hardware_interface.hpp:4[m[K,
+[6.925s]                  from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:1[m[K:
+[6.925s] /usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = Controller; _Args = {}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<Controller>][m[K’:
+[6.925s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:96:49:[m[K   required from here
+[6.926s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KController::Controller()[m[K’
+[6.926s]   962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+[6.926s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.927s] In file included from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/hardware_interface.hpp:10[m[K,
+[6.927s]                  from [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:1[m[K:
+[6.927s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:22:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KController::Controller(const string&, bool)[m[K’
+[6.927s]    22 |     [01;36m[KController[m[K(const std::string& com_port, bool debug = false);
+[6.928s]       |     [01;36m[K^~~~~~~~~~[m[K
+[6.928s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:22:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[6.928s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:14:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KController::Controller(const Controller&)[m[K’
+[6.928s]    14 | class [01;36m[KController[m[K {
+[6.928s]       |       [01;36m[K^~~~~~~~~~[m[K
+[6.928s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/include/xarm_1s_hardware_interface/xarm.hpp:14:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[7.780s] gmake[2]: *** [CMakeFiles/xarm_1s_hardware_interface.dir/build.make:118: CMakeFiles/xarm_1s_hardware_interface.dir/src/xarm.cpp.o] Error 1
+[7.780s] gmake[2]: *** Waiting for unfinished jobs....
+[8.992s] gmake[2]: *** [CMakeFiles/xarm_1s_hardware_interface.dir/build.make:76: CMakeFiles/xarm_1s_hardware_interface.dir/src/hardware_interface.cpp.o] Error 1
+[8.992s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/xarm_1s_hardware_interface.dir/all] Error 2
+[8.993s] gmake: *** [Makefile:146: all] Error 2
+[8.996s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface -- -j8 -l8

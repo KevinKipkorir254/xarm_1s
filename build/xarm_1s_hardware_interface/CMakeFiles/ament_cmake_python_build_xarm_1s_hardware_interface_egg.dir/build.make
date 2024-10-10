@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_xarm_1s_hardware_interface_egg.dir/c
 include CMakeFiles/ament_cmake_python_build_xarm_1s_hardware_interface_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_xarm_1s_hardware_interface_egg:
-	cd /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface/ament_cmake_python/xarm_1s_hardware_interface && /usr/bin/python3.10 setup.py egg_info
+	cd /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface/ament_cmake_python/xarm_1s_hardware_interface && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_xarm_1s_hardware_interface_egg: CMakeFiles/ament_cmake_python_build_xarm_1s_hardware_interface_egg
 ament_cmake_python_build_xarm_1s_hardware_interface_egg: CMakeFiles/ament_cmake_python_build_xarm_1s_hardware_interface_egg.dir/build.make

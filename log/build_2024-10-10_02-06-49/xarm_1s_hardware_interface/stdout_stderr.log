@@ -1,0 +1,63 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/xarm_1s_hardware_interface.dir/src/xarm.cpp.o[0m
+[ 20%] Built target ament_cmake_python_copy_xarm_1s_hardware_interface
+running egg_info
+writing xarm_1s_hardware_interface.egg-info/PKG-INFO
+writing dependency_links to xarm_1s_hardware_interface.egg-info/dependency_links.txt
+writing top-level names to xarm_1s_hardware_interface.egg-info/top_level.txt
+reading manifest file 'xarm_1s_hardware_interface.egg-info/SOURCES.txt'
+writing manifest file 'xarm_1s_hardware_interface.egg-info/SOURCES.txt'
+[ 20%] Built target ament_cmake_python_build_xarm_1s_hardware_interface_egg
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kstd::vector<unsigned char> Controller::recv(uint8_t)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:200:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcmd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  200 | std::vector<uint8_t> Controller::recv([01;35m[Kuint8_t cmd[m[K) {
+      |                                       [01;35m[K~~~~~~~~^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kvoid Controller::usbEventHandler(const std::vector<unsigned char>&, int)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:211:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  211 | void Controller::usbEventHandler(const std::vector<uint8_t>& data, [01;35m[Kint event_type[m[K) {
+      |                                                                    [01;35m[K~~~~^~~~~~~~~~[m[K
+[ 40%] [32m[1mLinking CXX shared library libxarm_1s_hardware_interface.so[0m
+[100%] Built target xarm_1s_hardware_interface
+-- Install configuration: ""
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/robotic_arm_hw_plugin.xml
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/pythonpath.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/pythonpath.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface-0.0.0-py3.10.egg-info
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface/__init__.py
+Listing '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface'...
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib/libxarm_1s_hardware_interface.so
+-- Set runtime path of "/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib/libxarm_1s_hardware_interface.so" to ""
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/xarm.hpp
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/util.hpp
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/servo.hpp
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/hardware_interface.hpp
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/launch
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/config
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/config/robot_arm_controllers.yaml
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/library_path.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/library_path.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/ament_index/resource_index/package_run_dependencies/xarm_1s_hardware_interface
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/ament_index/resource_index/parent_prefix_path/xarm_1s_hardware_interface
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/path.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/path.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/local_setup.bash
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/local_setup.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/local_setup.zsh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/local_setup.dsv
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/ament_index/resource_index/packages/xarm_1s_hardware_interface
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/xarm_1s_hardware_interface
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/cmake/xarm_1s_hardware_interfaceConfig.cmake
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/cmake/xarm_1s_hardware_interfaceConfig-version.cmake
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.xml

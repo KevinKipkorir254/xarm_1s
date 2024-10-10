@@ -652,6 +652,7 @@ CMakeFiles/xarm_1s_hardware_interface.dir/src/hardware_interface.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /usr/include/hidapi/hidapi.h \
  /opt/ros/humble/include/hardware_interface/types/hardware_interface_type_values.hpp \
  /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \

@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "rclcpp_lifecycle;rclcpp;pluginlib;hardware_interface")
+set(_exported_dependencies "rclcpp_lifecycle;rclcpp;pluginlib;hardware_interface;hidapi")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

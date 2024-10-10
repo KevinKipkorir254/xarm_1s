@@ -1,3 +1,0 @@
-[console_scripts]
-hardware_controller = xarm_hardware_interface.xarm_hardware_interface:main
-

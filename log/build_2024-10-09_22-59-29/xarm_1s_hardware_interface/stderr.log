@@ -1,0 +1,20 @@
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In constructor ‘[01m[KController::Controller(const string&, bool)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:28:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kres[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   28 |     int [01;35m[Kres[m[K;
+      |         [01;35m[K^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:29:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbuf[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   29 |     unsigned char [01;35m[Kbuf[m[K[65];
+      |                   [01;35m[K^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:30:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwstr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |     wchar_t [01;35m[Kwstr[m[K[255];
+      |             [01;35m[K^~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:32:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   32 |     int [01;35m[Ki[m[K;
+      |         [01;35m[K^[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:27:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcom_port[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 | Controller::Controller([01;35m[Kconst std::string& com_port[m[K, bool debug) : debug(debug), is_serial(false), device(nullptr), usb_recv_event(false) {
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:[m[K In member function ‘[01m[Kvoid Controller::usbEventHandler(const std::vector<unsigned char>&, int)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/xarm.cpp:239:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent_type[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  239 | void Controller::usbEventHandler(const std::vector<uint8_t>& data, [01;35m[Kint event_type[m[K) {
+      |                                                                    [01;35m[K~~~~^~~~~~~~~~[m[K

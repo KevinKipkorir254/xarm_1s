@@ -7,6 +7,9 @@
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface-0.0.0-py3.10.egg-info/PKG-INFO
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/local/lib/python3.10/dist-packages/xarm_1s_hardware_interface/__init__.py
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib/libxarm_1s_hardware_interface.so
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/xarm.hpp
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/util.hpp
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/servo.hpp
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/include/include/xarm_1s_hardware_interface/hardware_interface.hpp
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/config/robot_arm_controllers.yaml
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/environment/library_path.sh

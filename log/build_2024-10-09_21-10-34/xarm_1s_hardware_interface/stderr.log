@@ -1,0 +1,26 @@
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual robotic_arm_controllers::CallbackReturn robotic_arm_controllers::RoboticArmHWInterface::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:92:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   92 | CallbackReturn RoboticArmHWInterface::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual robotic_arm_controllers::CallbackReturn robotic_arm_controllers::RoboticArmHWInterface::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:101:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  101 | CallbackReturn RoboticArmHWInterface::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robotic_arm_controllers::RoboticArmHWInterface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:109:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  109 | hardware_interface::return_type RoboticArmHWInterface::read([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:110:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  110 |                                                           [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robotic_arm_controllers::RoboticArmHWInterface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:148:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  148 | hardware_interface::return_type RoboticArmHWInterface::write([01;35m[Kconst rclcpp::Time &time[m[K,
+      |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:149:84:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  149 |                                                            [01;35m[Kconst rclcpp::Duration &period[m[K)
+      |                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:[m[K In member function ‘[01m[Kint robotic_arm_controllers::RoboticArmHWInterface::recv(int)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface/src/hardware_interface.cpp:191:27:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kconst class LibSerial::ReadTimeout[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+  191 |   }catch(const LibSerial::[01;35m[KReadTimeout[m[K)
+      |                           [01;35m[K^~~~~~~~~~~[m[K

@@ -1,1 +1,1 @@
-rclcpp;rclpy;hardware_interface;rclcpp_lifecycle;pluginlib;libserial-dev;ros2launch;robot_state_publisher;xacro;controller_manager;ament_lint_auto;ament_lint_common
+rclcpp;rclpy;hardware_interface;rclcpp_lifecycle;pluginlib;libserial-dev;libhidapi-dev;ros2launch;robot_state_publisher;xacro;controller_manager;ament_lint_auto;ament_lint_common
