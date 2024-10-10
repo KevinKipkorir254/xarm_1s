@@ -97,7 +97,7 @@ with this you should be able to share the HID, next is to change the rules to al
 
 By following these steps, we ensured that both our test program and the ROS 2 hardware interface could read from and write to the XArm HID device without requiring root privileges, improving the security and usability of our setup.
 
-## CHANGING THE RULES
+## FINALLY RUN THE PROJECT
 1. go to the root folder
 2.run
 ```bash
