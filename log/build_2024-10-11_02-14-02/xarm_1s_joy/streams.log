@@ -1,0 +1,10 @@
+[0.044s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/game_pad.dir/src/game_pad.cpp.o[0m
+[0.593s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kxarm_1s_messages/msg/joy_msg.hpp: No such file or directory
+[0.593s]     8 | #include [01;31m[K"xarm_1s_messages/msg/joy_msg.hpp"[m[K
+[0.594s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.594s] compilation terminated.
+[0.597s] gmake[2]: *** [CMakeFiles/game_pad.dir/build.make:76: CMakeFiles/game_pad.dir/src/game_pad.cpp.o] Error 1
+[0.597s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/game_pad.dir/all] Error 2
+[0.598s] gmake: *** [Makefile:146: all] Error 2
+[0.602s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8

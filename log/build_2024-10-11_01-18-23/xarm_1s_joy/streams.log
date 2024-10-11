@@ -1,0 +1,40 @@
+[0.038s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy
+[0.355s] -- The C compiler identification is GNU 11.4.0
+[1.011s] -- The CXX compiler identification is GNU 11.4.0
+[1.463s] -- Detecting C compiler ABI info
+[1.677s] -- Detecting C compiler ABI info - done
+[1.688s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.689s] -- Detecting C compile features
+[1.690s] -- Detecting C compile features - done
+[1.695s] -- Detecting CXX compiler ABI info
+[1.898s] -- Detecting CXX compiler ABI info - done
+[1.910s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.911s] -- Detecting CXX compile features
+[1.911s] -- Detecting CXX compile features - done
+[1.958s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.187s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.404s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.668s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.687s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.712s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.971s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.986s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.063s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.097s] -- Looking for pthread.h
+[3.285s] -- Looking for pthread.h - found
+[3.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.462s] -- Found Threads: TRUE  
+[3.596s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.597s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.598s]   ament_target_dependencies() the passed package name '/usr/include' was not
+[3.598s]   found before
+[3.598s] Call Stack (most recent call first):
+[3.598s]   CMakeLists.txt:39 (ament_target_dependencies)
+[3.598s] 
+[3.598s] [0m
+[3.598s] -- Configuring incomplete, errors occurred!
+[3.598s] See also "/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/CMakeOutput.log".
+[3.610s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy

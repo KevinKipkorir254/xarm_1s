@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/game_pad.dir/src/game_pad.cpp.o[0m
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kxarm_1s_messages/msg/joy_msg.hpp: No such file or directory
+    8 | #include [01;31m[K"xarm_1s_messages/msg/joy_msg.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/game_pad.dir/build.make:76: CMakeFiles/game_pad.dir/src/game_pad.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/game_pad.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+{
+  "package_name": "xarm_1s_messages",
+  "non_idl_tuples": [
+    "/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_messages:msg/JoyMsg.msg"
+  ]
+}

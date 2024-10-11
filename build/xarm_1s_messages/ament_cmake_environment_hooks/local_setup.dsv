@@ -1,0 +1,4 @@
+source;share/xarm_1s_messages/environment/ament_prefix_path.sh
+source;share/xarm_1s_messages/environment/library_path.sh
+source;share/xarm_1s_messages/environment/path.sh
+source;share/xarm_1s_messages/environment/pythonpath.sh

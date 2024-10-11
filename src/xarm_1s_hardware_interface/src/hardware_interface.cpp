@@ -21,28 +21,37 @@ RoboticArmHWInterface::~RoboticArmHWInterface()
 
 CallbackReturn RoboticArmHWInterface::on_init(const hardware_interface::HardwareInfo &hardware_info)
 {
-  RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "In on init...............");
-      // Initialize your hardware interface here
-  CallbackReturn result = hardware_interface::SystemInterface::on_init(hardware_info);
-  if (result != CallbackReturn::SUCCESS)
-  {
-    return result;
-  }
+      RCLCPP_INFO(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "In on init...............");
+          // Initialize your hardware interface here
+      CallbackReturn result = hardware_interface::SystemInterface::on_init(hardware_info);
+      if (result != CallbackReturn::SUCCESS)
+      {
+        return result;
+      }
+        //reserve space for position states and commands
+        position_states.resize(info_.joints.size(), 0.0);
+        position_commands.resize(info_.joints.size(), 0.0);
    
 
     // Print out all joints and set initial values to zero
     for (const auto& joint : info_.joints)
     {
-        RCLCPP_INFO_STREAM(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "Joint name: " << joint.name);
+        //RCLCPP_INFO_STREAM(rclcpp::get_logger("EncodedDcMotorKitHardwareInterface"), "Joint name: " << joint.name);
+        if(joint.command_interfaces.size() != 1 || joint.command_interfaces[0].name != hardware_interface::HW_IF_POSITION)
+        {
+          RCLCPP_FATAL(rclcpp::get_logger("HardwareInterface"),"Joint '%s' has %zu command interfaces found. 1 expected.", joint.name.c_str(), joint.command_interfaces.size());
+          return CallbackReturn::ERROR;
+        }
+        if(joint.state_interfaces.size() != 1 || joint.state_interfaces[0].name != hardware_interface::HW_IF_POSITION)
+        {
+          RCLCPP_FATAL(rclcpp::get_logger("HardwareInterface"),"Joint '%s' has %zu state interfaces found. 1 expected.", joint.name.c_str(), joint.state_interfaces.size());
+          return CallbackReturn::ERROR;
+        }
     }
 
-    //reserve space for position states and commands
-    position_states.resize(info_.joints.size(), 0.0);
-    position_commands.resize(info_.joints.size(), 0.0);
-
     //initialize components to allow publishing
-    node_ = rclcpp::Node::make_shared("hardware_interface_node");
-    publisher_ = node_->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
+    //node_ = rclcpp::Node::make_shared("hardware_interface_node");
+    //publisher_ = node_->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
 
 
    try{
@@ -114,6 +123,7 @@ CallbackReturn RoboticArmHWInterface::on_activate(const rclcpp_lifecycle::State 
     printf("Serial Number String: %ls\n", wstr);
 
     positions.resize(6, 0);///since we have 6 motors
+    
 
   return CallbackReturn::SUCCESS;
 }
@@ -130,7 +140,9 @@ CallbackReturn RoboticArmHWInterface::on_deactivate(const rclcpp_lifecycle::Stat
 hardware_interface::return_type RoboticArmHWInterface::read(const rclcpp::Time &time,
                                                           const rclcpp::Duration &period)
 {
+  
   for (int servo = 1; servo <= 6; ++servo) {
+    
             // Set up the command
             memset(buf, 0, sizeof(buf));
             buf[0] = 0x00;  // Report ID
@@ -144,7 +156,7 @@ hardware_interface::return_type RoboticArmHWInterface::read(const rclcpp::Time &
             // Send the command
             res = hid_write(handle, buf, sizeof(buf));
             if (res < 0) {
-                printf("Error writing to device.\n");
+                //printf("Error writing to device.\n");
                 hid_close(handle);
                 hid_exit();
                 return hardware_interface::return_type::ERROR;
@@ -157,27 +169,31 @@ hardware_interface::return_type RoboticArmHWInterface::read(const rclcpp::Time &
                     int position = (buf[7] << 8) | buf[6];
                     positions[servo-1] = position;//starts at end effector last one is base motor
                 } else {
-                    printf("ERROR ");
+                    //printf("ERROR ");
                 }
             } else if (res == 0) {
-                printf("TIMEOUT ");
+                //printf("TIMEOUT ");
             } else {
-                printf("ERROR ");
+                //printf("ERROR ");
             }
         }
-
-         double position_states[6];
-         position_states[0] = 0.3 - (positions[0] * 3.14)/1000;
-         for(int i = 1; i < 6; i++)
+        
+ /*
+         //double position_states[6];
+         for(int i = 0; i < 5; i++)
          {
-            position_states[i] = -1.57 + (positions[i] * 3.14)/1000;
+            position_states[i] = -1.57 + (positions[5-i] * 3.14)/1000;
          }
+         position_states[5] = 0.3 - (positions[0] * 3.14)/1000;
+    */
 
-        auto joint_state_msg = sensor_msgs::msg::JointState();
-        joint_state_msg.header.stamp = node_->now();
-        joint_state_msg.name = {"grip_left", "wrist_roll", "wrist_flex", "elbow", "shoulder_lift", "shoulder_pan"};
-        joint_state_msg.position = {position_states[0], position_states[1], position_states[2], position_states[3], position_states[4], position_states[5]};
-        publisher_->publish(joint_state_msg);
+   for(int i = 0; i < 6; i++)
+   {
+    position_states[i] = position_commands[i];
+   }
+        // Log calculated position_states
+        //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), ".");
+    RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%f, %f, %f, %f, %f, %f", position_commands[0], position_commands[1], position_commands[2], position_commands[3], position_commands[4], position_commands[5]);
 
 
   return hardware_interface::return_type::OK;
@@ -187,6 +203,32 @@ hardware_interface::return_type RoboticArmHWInterface::read(const rclcpp::Time &
 hardware_interface::return_type RoboticArmHWInterface::write(const rclcpp::Time &time,
                                                            const rclcpp::Duration &period)
 {
+  
+      //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%f, %f, %f, %f, %f, %f", position_commands[0], position_commands[1], position_commands[2], position_commands[3], position_commands[4], position_commands[5]);
+      for(int i = 0; i < 5; i++)
+      {
+        positions[i] = static_cast<int>((position_commands[i] * 1000 + 1570)/3.14);/// shoulder_pan, shoulder_lift, elbow, wrist_flex, wrist_roll, grip_left
+      }
+
+      positions[5] = static_cast<int>((position_commands[5] * 1000 + 300)/3.14);/// grip_left
+      //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%d, %d, %d, %d, %d, %d", positions[0], positions[1], positions[2], positions[3], positions[4], positions[5]);
+     /*
+      int duration = 1000;
+
+      for(int i = 0; i < 6; i++)
+      {
+        //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%d", positions[i]);
+        std::vector<uint8_t> data = { 1, static_cast<uint8_t>(duration & 0xff), static_cast<uint8_t>((duration & 0xff00) >> 8)};
+        data.push_back(static_cast<uint8_t>((6-i)));
+        data.push_back(static_cast<uint8_t>(positions[i] & 0xff));
+        data.push_back(static_cast<uint8_t>((positions[i] & 0xff00) >> 8));
+
+        std::vector<uint8_t> report_data = {0, SIGNATURE, SIGNATURE, static_cast<uint8_t>(data.size() + 2), CMD_SERVO_MOVE};
+        report_data.insert(report_data.end(), data.begin(), data.end());
+        hid_write(handle, report_data.data(), report_data.size());
+      }
+      */
+      //std::cout << std::setw(5) << current_positions[servo-1] << " ";
 
   return hardware_interface::return_type::OK;
 }
@@ -209,7 +251,7 @@ int RoboticArmHWInterface::recv(int cmd)
 
   try
   {
-        serial_port_.Read(temp_buffer, 4, 1000);  // 1000 ms timeout
+        //serial_port_.Read(temp_buffer, 4, 1000);  // 1000 ms timeout
 
   }catch(const LibSerial::ReadTimeout)
   {
@@ -224,7 +266,7 @@ int RoboticArmHWInterface::recv(int cmd)
         std::vector<uint8_t> buffer_recv(len);
         try { 
 
-          serial_port_.Read(buffer_recv, len, 1000);
+          //serial_port_.Read(buffer_recv, len, 1000);
 
         } catch (const LibSerial::ReadTimeout&) {
             std::cerr << "Read timeout for data" << std::endl;
@@ -434,7 +476,7 @@ void RoboticArmHWInterface::servoOff()
    
         
         std::vector<uint8_t> buffer_recv(4);
-        serial_port_.Read(buffer_recv, 4, 1000);
+        //Serila.Read(buffer_recv, 4, 1000);
         if (buffer_recv[0] == SIGNATURE && buffer_recv[1] == SIGNATURE) {
           switch (buffer_recv[3])
           {
@@ -463,7 +505,7 @@ int RoboticArmHWInterface::getBatteryVoltage()
 }
 
 void RoboticArmHWInterface::beep() {
-  serial_port_.WriteByte((uint8_t)CMD_BEEP);
+  //serial_port_.WriteByte((uint8_t)CMD_BEEP);
 }
 
 }  // namespace robotic_arm_hwinterface

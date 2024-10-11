@@ -92,5 +92,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_description"
 }

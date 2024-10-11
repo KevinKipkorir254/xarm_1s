@@ -41,7 +41,8 @@
                 "/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs/include/**",
                 "/opt/ros/humble/include/**",
                 "/usr/include/**",
-                "${workspaceFolder}/xarm_1s_hardware_interface/include"
+                "${workspaceFolder}/xarm_1s_hardware_interface/include",
+                "${workspaceFolder}/xarm_1s_messages/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

@@ -1,0 +1,4 @@
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:[m[K In member function ‘[01m[Kvoid XArm1SKinematics::compute_ik_and_publish(const Point&)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:123:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  123 |         [01;35m[Kretval[m[K;
+      |         [01;35m[K^~~~~~[m[K

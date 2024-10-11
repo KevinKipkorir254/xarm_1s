@@ -1,0 +1,17 @@
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/xarm_1s_kinematics/kinematics_solver
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/xarm_1s_kinematics/geometry_publisher
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/ament_index/resource_index/package_run_dependencies/xarm_1s_kinematics
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/ament_index/resource_index/parent_prefix_path/xarm_1s_kinematics
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/ament_prefix_path.sh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/ament_prefix_path.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/path.sh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/path.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.bash
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.sh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.zsh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/ament_index/resource_index/packages/xarm_1s_kinematics
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/cmake/xarm_1s_kinematicsConfig.cmake
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/cmake/xarm_1s_kinematicsConfig-version.cmake
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.xml

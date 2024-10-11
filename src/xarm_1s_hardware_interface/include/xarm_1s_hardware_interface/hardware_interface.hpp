@@ -92,9 +92,9 @@ namespace robotic_arm_controllers
 
 
         private:
-            rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher_;
-            LibSerial::SerialPort serial_port_;
-            rclcpp::Node::SharedPtr node_;
+            //rclcpp::Publisher<sensor_msgs::msg::JointState>::SharedPtr publisher_;
+            //LibSerial::SerialPort serial_port_;
+            //rclcpp::Node::SharedPtr node_;
             std::string port_;
 
             std::vector<double> joint_positions;

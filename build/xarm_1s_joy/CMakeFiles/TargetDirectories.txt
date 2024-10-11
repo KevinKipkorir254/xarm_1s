@@ -1,0 +1,10 @@
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/uninstall.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/xarm_1s_joy_uninstall.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/game_pad.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/test.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/edit_cache.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/rebuild_cache.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/list_install_components.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/install.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/install/local.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy/CMakeFiles/install/strip.dir

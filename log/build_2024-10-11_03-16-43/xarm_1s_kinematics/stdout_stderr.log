@@ -1,0 +1,51 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found xarm_1s_description: 0.0.0 (/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/cmake)
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics
+[ 50%] [32mBuilding CXX object CMakeFiles/kinematics_solver.dir/src/xarm_1s_kinematics.cpp.o[0m
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:[m[K In constructor ‘[01m[KXArm1SKinematics::XArm1SKinematics()[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:36:102:[m[K [01;31m[Kerror: [m[K‘[01m[KKDL_publisher[m[K’ has not been declared
+   36 |         subscription_ = this->create_subscription<geometry_msgs::msg::Point>("topic", 10, std::bind(&[01;31m[KKDL_publisher[m[K::compute_ik_and_publish, this, _1));
+      |                                                                                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:[m[K In member function ‘[01m[Kvoid XArm1SKinematics::compute_ik_and_publish(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:122:14:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto msg[m[K’ shadows a parameter
+  122 |         auto [01;31m[Kmsg[m[K = std_msgs::msg::Float64MultiArray();
+      |              [01;31m[K^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:119:76:[m[K [01;36m[Knote: [m[K‘[01m[Kconst SharedPtr msg[m[K’ previously declared here
+  119 |     void compute_ik_and_publish([01;36m[Kconst geometry_msgs::msg::Point::SharedPtr msg[m[K)
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:123:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  123 |         [01;35m[Kretval[m[K;
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:130:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint[m[K’ was not declared in this scope
+  130 |         pos_goal.p = KDL::Vector( [01;31m[Kpoint[m[K.x, point.y, point.z);
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:119:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  119 |     void compute_ik_and_publish([01;35m[Kconst geometry_msgs::msg::Point::SharedPtr msg[m[K)
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/kinematics_solver.dir/build.make:76: CMakeFiles/kinematics_solver.dir/src/xarm_1s_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kinematics_solver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

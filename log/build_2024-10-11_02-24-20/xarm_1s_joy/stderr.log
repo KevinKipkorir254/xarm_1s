@@ -1,0 +1,13 @@
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:86:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_x_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   86 |                     uint8_t [01;35m[Kleft_x_abs[m[K = std::abs(left_x);
+      |                             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:87:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_y_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   87 |                     uint8_t [01;35m[Kleft_y_abs[m[K = std::abs(left_y);
+      |                             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:88:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_x_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   88 |                     uint8_t [01;35m[Kright_x_abs[m[K = std::abs(right_x);
+      |                             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:89:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_y_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   89 |                     uint8_t [01;35m[Kright_y_abs[m[K = std::abs(right_y);
+      |                             [01;35m[K^~~~~~~~~~~[m[K

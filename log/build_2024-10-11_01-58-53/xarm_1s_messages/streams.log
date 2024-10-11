@@ -1,0 +1,17 @@
+[0.051s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_messages -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages
+[0.108s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.471s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.786s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.847s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.847s]   rosidl_generate_interfaces() the passed file 'msg/joy_msg.msg' doesn't
+[0.848s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.848s]   '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_messages'
+[0.848s] Call Stack (most recent call first):
+[0.849s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.849s] 
+[0.849s] [0m
+[0.849s] -- Configuring incomplete, errors occurred!
+[0.849s] See also "/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages/CMakeFiles/CMakeOutput.log".
+[0.862s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_messages -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages

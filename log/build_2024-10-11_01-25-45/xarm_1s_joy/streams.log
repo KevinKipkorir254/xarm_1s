@@ -1,0 +1,48 @@
+[0.037s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy
+[0.055s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.284s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.453s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.456s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.463s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.506s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.595s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.681s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.793s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.794s] -- Configured cppcheck include dirs: /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/include
+[0.794s] -- Configured cppcheck exclude dirs and/or files: 
+[0.794s] -- Added test 'lint_cmake' to check CMake code style
+[0.795s] -- Added test 'uncrustify' to check C / C++ code style
+[0.795s] -- Configured uncrustify additional arguments: 
+[0.795s] -- Added test 'xmllint' to check XML markup files
+[0.796s] -- Configuring done
+[0.912s] -- Generating done
+[0.913s] -- Build files have been written to: /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy
+[0.930s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy -DCMAKE_INSTALL_PREFIX=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy
+[0.932s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8
+[1.023s] [ 50%] [32mBuilding CXX object CMakeFiles/game_pad.dir/src/game_pad.cpp.o[0m
+[6.929s] [100%] [32m[1mLinking CXX executable game_pad[0m
+[7.964s] [100%] Built target game_pad
+[7.986s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8
+[8.033s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy
+[8.046s] -- Install configuration: ""
+[8.046s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/xarm_1s_joy/game_pad
+[8.047s] -- Set runtime path of "/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/xarm_1s_joy/game_pad" to ""
+[8.048s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/package_run_dependencies/xarm_1s_joy
+[8.049s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/parent_prefix_path/xarm_1s_joy
+[8.050s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/ament_prefix_path.sh
+[8.050s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/ament_prefix_path.dsv
+[8.050s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/path.sh
+[8.051s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/path.dsv
+[8.051s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.bash
+[8.051s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.sh
+[8.051s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.zsh
+[8.052s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.dsv
+[8.052s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.dsv
+[8.053s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/packages/xarm_1s_joy
+[8.053s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/cmake/xarm_1s_joyConfig.cmake
+[8.054s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/cmake/xarm_1s_joyConfig-version.cmake
+[8.054s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.xml
+[8.058s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy

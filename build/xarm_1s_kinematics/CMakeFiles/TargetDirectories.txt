@@ -1,0 +1,11 @@
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/uninstall.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/xarm_1s_kinematics_uninstall.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/kinematics_solver.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/geometry_publisher.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/test.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/edit_cache.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/rebuild_cache.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/list_install_components.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/install.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/install/local.dir
+/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics/CMakeFiles/install/strip.dir

@@ -1,0 +1,414 @@
+[0.246s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.246s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f87278648b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8727864160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8727864160>>, mixin_verb=('build',))
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.509s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.510s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kevo/robotics_inc/xarm_1s'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_description) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_1s_description' with type 'ros.ament_cmake' and name 'xarm_1s_description'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_hardware_interface) by extension 'ros'
+[0.556s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_1s_hardware_interface' with type 'ros.ament_cmake' and name 'xarm_1s_hardware_interface'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_joy) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_1s_joy' with type 'ros.ament_cmake' and name 'xarm_1s_joy'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extensions ['colcon_pkg']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extension 'colcon_pkg'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extensions ['colcon_meta']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extension 'colcon_meta'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extensions ['ros']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_kinematics) by extension 'ros'
+[0.559s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_1s_kinematics' with type 'ros.ament_cmake' and name 'xarm_1s_kinematics'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extension 'ignore_ament_install'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/xarm_1s_messages) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xarm_1s_messages' with type 'ros.ament_cmake' and name 'xarm_1s_messages'
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.592s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/kevo/robotics_inc/xarm_1s/install
+[0.594s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 57 installed packages in /home/kevo/ws_moveit2/install
+[0.596s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 377 installed packages in /opt/ros/humble
+[0.600s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_1s_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description', 'merge_install': False, 'path': '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_description', 'symlink_install': False, 'test_result_base': None}
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_1s_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface', 'merge_install': False, 'path': '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'cmake_target' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.666s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.666s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_1s_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy', 'merge_install': False, 'path': '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy', 'symlink_install': False, 'test_result_base': None}
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'cmake_target' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'cmake_clean_first' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'cmake_force_configure' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'ament_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.667s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_1s_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages', 'merge_install': False, 'path': '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_messages', 'symlink_install': False, 'test_result_base': None}
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'cmake_args' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'cmake_target' from command line to 'None'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.667s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'cmake_clean_first' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'cmake_force_configure' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'ament_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'xarm_1s_kinematics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.668s] DEBUG:colcon.colcon_core.verb:Building package 'xarm_1s_kinematics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics', 'merge_install': False, 'path': '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics', 'symlink_install': False, 'test_result_base': None}
+[0.668s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.669s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_description' with build type 'ament_cmake'
+[0.670s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_description'
+[0.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.675s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.683s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface' with build type 'ament_cmake'
+[0.684s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_hardware_interface'
+[0.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.684s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.698s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy' with build type 'ament_cmake'
+[0.698s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy'
+[0.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.711s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_messages' with build type 'ament_cmake'
+[0.711s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_messages'
+[0.711s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.712s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description -- -j8 -l8
+[0.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface -- -j8 -l8
+[0.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8
+[0.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages -- -j8 -l8
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description -- -j8 -l8
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8
+[0.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_description)
+[1.012s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description' for CMake module files
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description' for CMake config files
+[1.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_description', 'cmake_prefix_path')
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/hook/cmake_prefix_path.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/hook/cmake_prefix_path.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/hook/cmake_prefix_path.sh'
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_description
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/bin'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/lib/pkgconfig/xarm_1s_description.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/lib/python3.10/site-packages'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/bin'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.sh'
+[1.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.bash'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.zsh'
+[1.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/colcon-core/packages/xarm_1s_description)
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy
+[1.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_joy)
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy' for CMake module files
+[1.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy' for CMake config files
+[1.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_joy', 'cmake_prefix_path')
+[1.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/hook/cmake_prefix_path.ps1'
+[1.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/hook/cmake_prefix_path.dsv'
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/hook/cmake_prefix_path.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/bin'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/pkgconfig/xarm_1s_joy.pc'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/python3.10/site-packages'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/bin'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.sh'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.bash'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.zsh'
+[1.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/colcon-core/packages/xarm_1s_joy)
+[1.149s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_description)
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description' for CMake module files
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description' for CMake config files
+[1.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_description', 'cmake_prefix_path')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/hook/cmake_prefix_path.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/hook/cmake_prefix_path.dsv'
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/hook/cmake_prefix_path.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/bin'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/lib/pkgconfig/xarm_1s_description.pc'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/lib/python3.10/site-packages'
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/bin'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.ps1'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.dsv'
+[1.164s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.sh'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/package.zsh'
+[1.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/colcon-core/packages/xarm_1s_description)
+[1.171s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics' with build type 'ament_cmake'
+[1.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics'
+[1.178s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_joy)
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy' for CMake module files
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy' for CMake config files
+[1.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_joy', 'cmake_prefix_path')
+[1.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/hook/cmake_prefix_path.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/hook/cmake_prefix_path.dsv'
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/hook/cmake_prefix_path.sh'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/bin'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/pkgconfig/xarm_1s_joy.pc'
+[1.251s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/python3.10/site-packages'
+[1.252s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/bin'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.ps1'
+[1.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.dsv'
+[1.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.sh'
+[1.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.bash'
+[1.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.zsh'
+[1.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/colcon-core/packages/xarm_1s_joy)
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics': CMAKE_PREFIX_PATH=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics -- -j8 -l8
+[1.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface -- -j8 -l8
+[1.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages -- -j8 -l8
+[1.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface
+[2.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_hardware_interface)
+[2.008s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface' for CMake module files
+[2.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_hardware_interface
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface' for CMake config files
+[2.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_hardware_interface', 'cmake_prefix_path')
+[2.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/cmake_prefix_path.ps1'
+[2.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/cmake_prefix_path.dsv'
+[2.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/cmake_prefix_path.sh'
+[2.018s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib'
+[2.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_hardware_interface', 'ld_library_path_lib')
+[2.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/ld_library_path_lib.ps1'
+[2.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/ld_library_path_lib.dsv'
+[2.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/ld_library_path_lib.sh'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/bin'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib/pkgconfig/xarm_1s_hardware_interface.pc'
+[2.021s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib/python3.10/site-packages'
+[2.022s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/bin'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.ps1'
+[2.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.dsv'
+[2.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.sh'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.bash'
+[2.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.zsh'
+[2.026s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/colcon-core/packages/xarm_1s_hardware_interface)
+[2.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages
+[2.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_hardware_interface)
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface' for CMake module files
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface' for CMake config files
+[2.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_hardware_interface', 'cmake_prefix_path')
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/cmake_prefix_path.ps1'
+[2.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/cmake_prefix_path.dsv'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/cmake_prefix_path.sh'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib'
+[2.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_hardware_interface', 'ld_library_path_lib')
+[2.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/ld_library_path_lib.ps1'
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/ld_library_path_lib.dsv'
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/hook/ld_library_path_lib.sh'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/bin'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib/pkgconfig/xarm_1s_hardware_interface.pc'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/lib/python3.10/site-packages'
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/bin'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.ps1'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.dsv'
+[2.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.sh'
+[2.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.bash'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/xarm_1s_hardware_interface/package.zsh'
+[2.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface/share/colcon-core/packages/xarm_1s_hardware_interface)
+[2.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_messages)
+[2.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_messages
+[2.178s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages' for CMake module files
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages' for CMake config files
+[2.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_messages', 'cmake_prefix_path')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/cmake_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/cmake_prefix_path.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/cmake_prefix_path.sh'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/lib'
+[2.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_messages', 'ld_library_path_lib')
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/ld_library_path_lib.ps1'
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/ld_library_path_lib.dsv'
+[2.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/ld_library_path_lib.sh'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/bin'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/lib/pkgconfig/xarm_1s_messages.pc'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/lib/python3.10/site-packages'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/bin'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.dsv'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.sh'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.bash'
+[2.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.zsh'
+[2.192s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/colcon-core/packages/xarm_1s_messages)
+[2.397s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_messages)
+[2.398s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages' for CMake module files
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages' for CMake config files
+[2.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_messages', 'cmake_prefix_path')
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/cmake_prefix_path.ps1'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/cmake_prefix_path.dsv'
+[2.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/cmake_prefix_path.sh'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/lib'
+[2.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_messages', 'ld_library_path_lib')
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/ld_library_path_lib.ps1'
+[2.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/ld_library_path_lib.dsv'
+[2.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/hook/ld_library_path_lib.sh'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/bin'
+[2.409s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/lib/pkgconfig/xarm_1s_messages.pc'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/lib/python3.10/site-packages'
+[2.411s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/bin'
+[2.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.ps1'
+[2.413s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.dsv'
+[2.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.sh'
+[2.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.bash'
+[2.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/xarm_1s_messages/package.zsh'
+[2.417s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages/share/colcon-core/packages/xarm_1s_messages)
+[17.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics' returned '0': CMAKE_PREFIX_PATH=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics -- -j8 -l8
+[17.887s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics': CMAKE_PREFIX_PATH=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics
+[17.916s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_kinematics)
+[17.917s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics' for CMake module files
+[17.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics' returned '0': CMAKE_PREFIX_PATH=/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_messages:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy:/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_hardware_interface:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner_testutils:/home/kevo/ws_moveit2/install/panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_runtime:/home/kevo/ws_moveit2/install/moveit2_tutorials:/home/kevo/ws_moveit2/install/moveit:/home/kevo/ws_moveit2/install/moveit_planners:/home/kevo/ws_moveit2/install/pilz_industrial_motion_planner:/home/kevo/ws_moveit2/install/mtc_tutorial:/home/kevo/ws_moveit2/install/moveit_visual_tools:/home/kevo/ws_moveit2/install/moveit_task_constructor_visualization:/home/kevo/ws_moveit2/install/moveit_task_constructor_demo:/home/kevo/ws_moveit2/install/moveit_task_constructor_capabilities:/home/kevo/ws_moveit2/install/moveit_task_constructor_core:/home/kevo/ws_moveit2/install/moveit_ros_control_interface:/home/kevo/ws_moveit2/install/moveit_plugins:/home/kevo/ws_moveit2/install/moveit_simple_controller_manager:/home/kevo/ws_moveit2/install/moveit_setup_assistant:/home/kevo/ws_moveit2/install/moveit_setup_srdf_plugins:/home/kevo/ws_moveit2/install/moveit_setup_core_plugins:/home/kevo/ws_moveit2/install/moveit_setup_controllers:/home/kevo/ws_moveit2/install/moveit_setup_app_plugins:/home/kevo/ws_moveit2/install/moveit_setup_framework:/home/kevo/ws_moveit2/install/moveit_servo:/home/kevo/ws_moveit2/install/moveit_ros:/home/kevo/ws_moveit2/install/moveit_ros_visualization:/home/kevo/ws_moveit2/install/moveit_hybrid_planning:/home/kevo/ws_moveit2/install/moveit_ros_planning_interface:/home/kevo/ws_moveit2/install/moveit_ros_benchmarks:/home/kevo/ws_moveit2/install/moveit_ros_warehouse:/home/kevo/ws_moveit2/install/moveit_ros_robot_interaction:/home/kevo/ws_moveit2/install/moveit_ros_perception:/home/kevo/ws_moveit2/install/moveit_resources_prbt_pg70_support:/home/kevo/ws_moveit2/install/moveit_resources_prbt_moveit_config:/home/kevo/ws_moveit2/install/moveit_ros_move_group:/home/kevo/ws_moveit2/install/moveit_planners_ompl:/home/kevo/ws_moveit2/install/moveit_ros_planning:/home/kevo/ws_moveit2/install/moveit_ros_occupancy_map_monitor:/home/kevo/ws_moveit2/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/kevo/ws_moveit2/install/moveit_planners_chomp:/home/kevo/ws_moveit2/install/moveit_kinematics:/home/kevo/ws_moveit2/install/moveit_chomp_optimizer_adapter:/home/kevo/ws_moveit2/install/chomp_motion_planner:/home/kevo/ws_moveit2/install/moveit_core:/home/kevo/ws_moveit2/install/srdfdom:/home/kevo/ws_moveit2/install/rviz_marker_tools:/home/kevo/ws_moveit2/install/rosparam_shortcuts:/home/kevo/ws_moveit2/install/moveit_task_constructor_msgs:/home/kevo/ws_moveit2/install/moveit_resources_prbt_support:/home/kevo/ws_moveit2/install/moveit_resources:/home/kevo/ws_moveit2/install/moveit_resources_pr2_description:/home/kevo/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_panda_description:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/kevo/ws_moveit2/install/moveit_resources_fanuc_description:/home/kevo/ws_moveit2/install/moveit_common:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_kinematics
+[17.918s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics' for CMake config files
+[17.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_kinematics', 'cmake_prefix_path')
+[17.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/hook/cmake_prefix_path.ps1'
+[17.921s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/hook/cmake_prefix_path.dsv'
+[17.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/hook/cmake_prefix_path.sh'
+[17.923s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib'
+[17.924s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/bin'
+[17.924s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/pkgconfig/xarm_1s_kinematics.pc'
+[17.924s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/python3.10/site-packages'
+[17.925s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/bin'
+[17.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.ps1'
+[17.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.dsv'
+[17.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.sh'
+[17.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.bash'
+[17.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.zsh'
+[17.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/colcon-core/packages/xarm_1s_kinematics)
+[17.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xarm_1s_kinematics)
+[17.987s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics' for CMake module files
+[17.988s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics' for CMake config files
+[17.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('xarm_1s_kinematics', 'cmake_prefix_path')
+[17.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/hook/cmake_prefix_path.ps1'
+[17.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/hook/cmake_prefix_path.dsv'
+[17.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/hook/cmake_prefix_path.sh'
+[17.991s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib'
+[17.991s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/bin'
+[17.991s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/pkgconfig/xarm_1s_kinematics.pc'
+[17.991s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/python3.10/site-packages'
+[17.992s] Level 1:colcon.colcon_core.environment:checking '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/bin'
+[17.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.ps1'
+[17.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.dsv'
+[17.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.sh'
+[17.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.bash'
+[17.997s] INFO:colcon.colcon_core.shell:Creating package script '/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.zsh'
+[17.997s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/colcon-core/packages/xarm_1s_kinematics)
+[17.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.998s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.999s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.999s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[18.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.064s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.064s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.066s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[18.066s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.066s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/robotics_inc/xarm_1s/install/local_setup.ps1'
+[18.068s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kevo/robotics_inc/xarm_1s/install/_local_setup_util_ps1.py'
+[18.070s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/robotics_inc/xarm_1s/install/setup.ps1'
+[18.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/robotics_inc/xarm_1s/install/local_setup.sh'
+[18.076s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kevo/robotics_inc/xarm_1s/install/_local_setup_util_sh.py'
+[18.077s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/robotics_inc/xarm_1s/install/setup.sh'
+[18.080s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/robotics_inc/xarm_1s/install/local_setup.bash'
+[18.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/robotics_inc/xarm_1s/install/setup.bash'
+[18.085s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kevo/robotics_inc/xarm_1s/install/local_setup.zsh'
+[18.086s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kevo/robotics_inc/xarm_1s/install/setup.zsh'

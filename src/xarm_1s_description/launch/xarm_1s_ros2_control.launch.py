@@ -55,6 +55,13 @@ def generate_launch_description():
         output="screen"
     )
 
+    joint_state_broadcaster_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["joint_state_broadcaster"],
+        output="screen"
+    )
+
     position_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
@@ -68,6 +75,7 @@ def generate_launch_description():
             model_arg,
             rsp,
             controller_manager, 
+            joint_state_broadcaster_spawner,
             position_controller_spawner,
             rviz2_node,
             #joint_state_publisher_gui,

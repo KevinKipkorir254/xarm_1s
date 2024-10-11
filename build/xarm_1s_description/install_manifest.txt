@@ -28,6 +28,7 @@
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s.urdf.xacro:Zone.Identifier
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s.urdf.xacro
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s_ros2_control.xacro
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/urdf/xarm_1s.urdf
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/package_run_dependencies/xarm_1s_description
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/ament_index/resource_index/parent_prefix_path/xarm_1s_description
 /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_description/share/xarm_1s_description/environment/ament_prefix_path.sh

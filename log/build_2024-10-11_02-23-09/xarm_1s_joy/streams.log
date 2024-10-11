@@ -1,0 +1,39 @@
+[0.052s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target game_pad[0m
+[0.222s] [ 50%] [32mBuilding CXX object CMakeFiles/game_pad.dir/src/game_pad.cpp.o[0m
+[4.045s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[4.045s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:86:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_x_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.045s]    86 |                     uint8_t [01;35m[Kleft_x_abs[m[K = std::abs(left_x);
+[4.045s]       |                             [01;35m[K^~~~~~~~~~[m[K
+[4.045s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:87:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kleft_y_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.045s]    87 |                     uint8_t [01;35m[Kleft_y_abs[m[K = std::abs(left_y);
+[4.045s]       |                             [01;35m[K^~~~~~~~~~[m[K
+[4.046s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:88:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_x_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.046s]    88 |                     uint8_t [01;35m[Kright_x_abs[m[K = std::abs(right_x);
+[4.046s]       |                             [01;35m[K^~~~~~~~~~~[m[K
+[4.046s] [01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_joy/src/game_pad.cpp:89:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kright_y_abs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.046s]    89 |                     uint8_t [01;35m[Kright_y_abs[m[K = std::abs(right_y);
+[4.046s]       |                             [01;35m[K^~~~~~~~~~~[m[K
+[6.317s] [100%] [32m[1mLinking CXX executable game_pad[0m
+[7.227s] [100%] Built target game_pad
+[7.246s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy -- -j8 -l8
+[7.287s] Invoking command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy
+[7.298s] -- Install configuration: ""
+[7.298s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/xarm_1s_joy/game_pad
+[7.299s] -- Set runtime path of "/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/xarm_1s_joy/game_pad" to ""
+[7.299s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/package_run_dependencies/xarm_1s_joy
+[7.300s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/parent_prefix_path/xarm_1s_joy
+[7.300s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/ament_prefix_path.sh
+[7.300s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/ament_prefix_path.dsv
+[7.300s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/path.sh
+[7.300s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/path.dsv
+[7.300s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.bash
+[7.300s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.sh
+[7.301s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.zsh
+[7.301s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.dsv
+[7.301s] -- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.dsv
+[7.301s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/packages/xarm_1s_joy
+[7.301s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/cmake/xarm_1s_joyConfig.cmake
+[7.301s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/cmake/xarm_1s_joyConfig-version.cmake
+[7.301s] -- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.xml
+[7.303s] Invoked command in '/home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kevo/ws_moveit2/install/moveit_configs_utils:/home/kevo/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/kevo/robotics_inc/xarm_1s/build/xarm_1s_joy

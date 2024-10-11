@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target kinematics_solver[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/kinematics_solver.dir/src/xarm_1s_kinematics.cpp.o[0m
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:[m[K In member function ‘[01m[Kvoid XArm1SKinematics::compute_ik_and_publish(geometry_msgs::msg::Point_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:122:14:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto msg[m[K’ shadows a parameter
+  122 |         auto [01;31m[Kmsg[m[K = std_msgs::msg::Float64MultiArray();
+      |              [01;31m[K^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:119:76:[m[K [01;36m[Knote: [m[K‘[01m[Kconst SharedPtr msg[m[K’ previously declared here
+  119 |     void compute_ik_and_publish([01;36m[Kconst geometry_msgs::msg::Point::SharedPtr msg[m[K)
+      |                                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:123:9:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  123 |         [01;35m[Kretval[m[K;
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:130:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint[m[K’ was not declared in this scope
+  130 |         pos_goal.p = KDL::Vector( [01;31m[Kpoint[m[K.x, point.y, point.z);
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_kinematics/src/xarm_1s_kinematics.cpp:119:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  119 |     void compute_ik_and_publish([01;35m[Kconst geometry_msgs::msg::Point::SharedPtr msg[m[K)
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/kinematics_solver.dir/build.make:76: CMakeFiles/kinematics_solver.dir/src/xarm_1s_kinematics.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kinematics_solver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,16 @@
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/lib/xarm_1s_joy/game_pad
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/package_run_dependencies/xarm_1s_joy
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/parent_prefix_path/xarm_1s_joy
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/ament_prefix_path.sh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/ament_prefix_path.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/path.sh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/environment/path.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.bash
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.sh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.zsh
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/local_setup.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.dsv
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/ament_index/resource_index/packages/xarm_1s_joy
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/cmake/xarm_1s_joyConfig.cmake
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/cmake/xarm_1s_joyConfig-version.cmake
+/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_joy/share/xarm_1s_joy/package.xml
