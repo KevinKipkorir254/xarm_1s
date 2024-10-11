@@ -31,7 +31,7 @@ dmesg | grep dev
 ```
 with this you should be able to share the HID, next is to change the rules to allow the hardware interface to access this HID
 
-##CHANGING THE RULES
+## CHANGING THE RULES
 
 1. Identify the USB Device:
    First, we needed to identify the USB device. We used the `lsusb` command to list all USB devices:
