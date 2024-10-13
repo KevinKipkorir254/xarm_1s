@@ -47,7 +47,7 @@ private:
         package_path.append("/urdf/xarm_1s.urdf");
 
         //print the file path
-        RCLCPP_INFO(this->get_logger(), "Package path: %s", package_path.c_str());
+        //RCLCPP_INFO(this->get_logger(), "Package path: %s", package_path.c_str());
 
         //use the code for the path
         using namespace std::chrono_literals;
@@ -59,22 +59,22 @@ private:
         if(my_urdf_model)
         {
                 //Print the number of joints and links in the URDF model
-                std::cout << "Number of joints: "<< my_urdf_model->joints_.size() <<std::endl;
-                std::cout << "Number of links: " << my_urdf_model->links_.size() <<std::endl; 
+                //std::cout << "Number of joints: "<< my_urdf_model->joints_.size() <<std::endl;
+                //std::cout << "Number of links: " << my_urdf_model->links_.size() <<std::endl; 
         }
 
         //Create a URDF model from the URDF model pointer
         urdf::ModelInterface model = *my_urdf_model;
 
         //Create a tree from the URDF model
-        RCLCPP_INFO(this->get_logger(), "Start creating tree");
+        //RCLCPP_INFO(this->get_logger(), "Start creating tree");
         if ( !kdl_parser::treeFromUrdfModel( model, my_tree))
         {
           RCLCPP_INFO(this->get_logger(), "failed to parse urdf robot model");
         }
         else
         {
-          RCLCPP_INFO(this->get_logger(), "Tree created succesfully");
+          //RCLCPP_INFO(this->get_logger(), "Tree created succesfully");
         }
 
         //Get the chain from the tree
@@ -84,12 +84,12 @@ private:
         }
         else 
         {
-            RCLCPP_INFO(this->get_logger(), "Now we have a chain");
+           // RCLCPP_INFO(this->get_logger(), "Now we have a chain");
         }
 
         //Print the number of joints and segments in the chain
-        RCLCPP_INFO(this->get_logger(), "Number of joints: %d", kdl_chain.getNrOfJoints());
-        RCLCPP_INFO(this->get_logger(), "Number of segments: %d", kdl_chain.getNrOfSegments());
+        //RCLCPP_INFO(this->get_logger(), "Number of joints: %d", kdl_chain.getNrOfJoints());
+        //RCLCPP_INFO(this->get_logger(), "Number of segments: %d", kdl_chain.getNrOfSegments());
 
         //Initialize the joint arrays
         KDL::JntArray q(kdl_chain.getNrOfJoints());
@@ -105,8 +105,8 @@ private:
          //This calculates the forward kinematics for the given joint array q and stores the result in T
         fksolver.JntToCart(q, T);
 
-        std::cout << "q init:" << q <<std::endl;
-        std::cout << "Pose: "<< T <<std::endl;
+        //std::cout << "q init:" << q <<std::endl;
+        //std::cout << "Pose: "<< T <<std::endl;
 
 
         KDL::ChainIkSolverPos_LMA solver(kdl_chain);
@@ -125,8 +125,8 @@ private:
         fksolver.JntToCart(q_, pos_goal);
 
         //Print the joint array
-        std::cout << "q:" << q_<<std::endl;
-        std::cout << "Pose: "<< pos_goal <<std::endl;
+        //std::cout << "q:" << q_<<std::endl;
+        //std::cout << "Pose: "<< pos_goal <<std::endl;
 
     }
 
@@ -140,12 +140,12 @@ private:
         KDL::JntArray q_init(n);
         KDL::JntArray q_sol(n);
 
-        pos_goal.M = KDL::Rotation::RPY( 0.0, 0.0, 0.0);
+        pos_goal.M = KDL::Rotation::RPY( 1.57, 1.57, 0.0);
         pos_goal.p = KDL::Vector( point.x, point.y, point.z);
         retval = solver.CartToJnt(q_init, pos_goal,q_sol);
         msg.data = { (float)q_sol(0), (float)q_sol(1), (float)q_sol(2), (float)q_sol(3), (float)q_sol(4), (float)q_sol(5)};
         publisher_->publish(msg);
-          RCLCPP_INFO(this->get_logger(), "Done");   
+        //RCLCPP_INFO(this->get_logger(), "Done");   
     }
 
             

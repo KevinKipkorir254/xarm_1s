@@ -2,6 +2,7 @@
 #include <functional>
 #include <memory>
 #include <string>
+#include <geometry_msgs/msg/twist.hpp>
 
 
 #include <rclcpp/rclcpp.hpp>
@@ -12,6 +13,7 @@ using namespace std::chrono_literals;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
 * member function as a callback from the timer. */
+using std::placeholders::_1;
 
 class MinimalPublisher : public rclcpp::Node
 {
@@ -20,6 +22,7 @@ class MinimalPublisher : public rclcpp::Node
     : Node("current_positions"), count_(0)
     {
       publisher_ = this->create_publisher<geometry_msgs::msg::Point>("current_positions", 10);
+      subscriber_ = this->create_subscription<geometry_msgs::msg::Twist>("cmd_vel", 10, std::bind(&MinimalPublisher::twist_callback, this, _1));
       timer_ = this->create_wall_timer(
       25ms, std::bind(&MinimalPublisher::timer_callback, this));
     }
@@ -36,20 +39,32 @@ class MinimalPublisher : public rclcpp::Node
       message.z = (a * t)/1000;
       */
 
-      message.x = 0.05;
-      message.y = 0.0;// this is what behaves as z
-      message.z = 0.1;
-      RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f', '%f'", message.x, message.y, message.z);
+      message.x = x_linear_velocity;
+      message.y = y_linear_velocity;
+      message.z = z_linear_velocity;
+      //RCLCPP_INFO(this->get_logger(), "Publishing: '%f', '%f', '%f'", message.x, message.y, message.z);
       publisher_->publish(message);
-      t++;
     }
 
-    float a = 0.1;
+    void twist_callback(const geometry_msgs::msg::Twist::SharedPtr msg)
+    {
+      x_linear_velocity += msg->linear.x;
+      y_linear_velocity += msg->linear.y;
+      z_linear_velocity += msg->linear.z;
+      //RCLCPP_INFO(this->get_logger(), "Received twist: '%f', '%f', '%f'", msg->linear.x, msg->linear.y, msg->linear.z);
+    }
+
+    float a = 0;
     float r = 40;
     int t = 0;
+    float x_linear_velocity = 0.202857;
+    float y_linear_velocity = 0.0;
+    float z_linear_velocity = 0.092634;
+    float x_angular_velocity = 0.0;
 
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<geometry_msgs::msg::Point>::SharedPtr publisher_;
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscriber_;
     size_t count_;
 };
 

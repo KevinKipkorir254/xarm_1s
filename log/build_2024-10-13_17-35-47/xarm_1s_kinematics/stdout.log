@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target kinematics_solver[0m
+[ 50%] Built target geometry_publisher
+[ 75%] [32mBuilding CXX object CMakeFiles/kinematics_solver.dir/src/xarm_1s_kinematics.cpp.o[0m
+[100%] [32m[1mLinking CXX executable kinematics_solver[0m
+[100%] Built target kinematics_solver
+-- Install configuration: ""
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/xarm_1s_kinematics/kinematics_solver
+-- Set runtime path of "/home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/xarm_1s_kinematics/kinematics_solver" to ""
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/lib/xarm_1s_kinematics/geometry_publisher
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/ament_index/resource_index/package_run_dependencies/xarm_1s_kinematics
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/ament_index/resource_index/parent_prefix_path/xarm_1s_kinematics
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/path.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/environment/path.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.bash
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.sh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.zsh
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/local_setup.dsv
+-- Installing: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.dsv
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/ament_index/resource_index/packages/xarm_1s_kinematics
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/cmake/xarm_1s_kinematicsConfig.cmake
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/cmake/xarm_1s_kinematicsConfig-version.cmake
+-- Up-to-date: /home/kevo/robotics_inc/xarm_1s/install/xarm_1s_kinematics/share/xarm_1s_kinematics/package.xml

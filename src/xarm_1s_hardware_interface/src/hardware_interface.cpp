@@ -53,17 +53,6 @@ CallbackReturn RoboticArmHWInterface::on_init(const hardware_interface::Hardware
     //node_ = rclcpp::Node::make_shared("hardware_interface_node");
     //publisher_ = node_->create_publisher<sensor_msgs::msg::JointState>("joint_states", 10);
 
-
-   try{
-        //arm = Controller("hidraw0");
-        RCLCPP_INFO_STREAM(rclcpp::get_logger("hardware_interface_node"), "Serial Port initialized successfully.");
-
-      } catch(const std::exception &e)
-      {
-            RCLCPP_ERROR(rclcpp::get_logger("hardware_interface_node"), "Serial port initialization failed: %s", e.what());
-      }
-
-
   return CallbackReturn::SUCCESS;
 }
 
@@ -98,7 +87,7 @@ std::vector<hardware_interface::CommandInterface> RoboticArmHWInterface::export_
 
 CallbackReturn RoboticArmHWInterface::on_activate(const rclcpp_lifecycle::State &previous_state)
 {
-
+    /*
     // Initialize the hidapi library
     res = hid_init();
     printf("hid_init result: %d\n", res);
@@ -121,6 +110,7 @@ CallbackReturn RoboticArmHWInterface::on_activate(const rclcpp_lifecycle::State 
     // Read the Serial Number String
     res = hid_get_serial_number_string(handle, wstr, MAX_STR);
     printf("Serial Number String: %ls\n", wstr);
+    */
 
     positions.resize(6, 0);///since we have 6 motors
     
@@ -140,7 +130,7 @@ CallbackReturn RoboticArmHWInterface::on_deactivate(const rclcpp_lifecycle::Stat
 hardware_interface::return_type RoboticArmHWInterface::read(const rclcpp::Time &time,
                                                           const rclcpp::Duration &period)
 {
-  
+  /*
   for (int servo = 1; servo <= 6; ++servo) {
     
             // Set up the command
@@ -177,6 +167,7 @@ hardware_interface::return_type RoboticArmHWInterface::read(const rclcpp::Time &
                 //printf("ERROR ");
             }
         }
+    */
         
  /*
          //double position_states[6];
@@ -193,7 +184,7 @@ hardware_interface::return_type RoboticArmHWInterface::read(const rclcpp::Time &
    }
         // Log calculated position_states
         //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), ".");
-    RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%f, %f, %f, %f, %f, %f", position_commands[0], position_commands[1], position_commands[2], position_commands[3], position_commands[4], position_commands[5]);
+    //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%f, %f, %f, %f, %f, %f", position_commands[0], position_commands[1], position_commands[2], position_commands[3], position_commands[4], position_commands[5]);
 
 
   return hardware_interface::return_type::OK;
@@ -211,7 +202,7 @@ hardware_interface::return_type RoboticArmHWInterface::write(const rclcpp::Time 
       }
 
       positions[5] = static_cast<int>((position_commands[5] * 1000 + 300)/3.14);/// grip_left
-      RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%d, %d, %d, %d, %d, %d", positions[0], positions[1], positions[2], positions[3], positions[4], positions[5]);
+      //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%d, %d, %d, %d, %d, %d", positions[0], positions[1], positions[2], positions[3], positions[4], positions[5]);
      /*
       int duration = 1000;
 
