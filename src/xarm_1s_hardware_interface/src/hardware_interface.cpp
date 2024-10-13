@@ -211,7 +211,7 @@ hardware_interface::return_type RoboticArmHWInterface::write(const rclcpp::Time 
       }
 
       positions[5] = static_cast<int>((position_commands[5] * 1000 + 300)/3.14);/// grip_left
-      //RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%d, %d, %d, %d, %d, %d", positions[0], positions[1], positions[2], positions[3], positions[4], positions[5]);
+      RCLCPP_INFO(rclcpp::get_logger("RoboticArmHWInterface"), "%d, %d, %d, %d, %d, %d", positions[0], positions[1], positions[2], positions[3], positions[4], positions[5]);
      /*
       int duration = 1000;
 

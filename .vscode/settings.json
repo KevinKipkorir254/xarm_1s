@@ -16,5 +16,6 @@
         "/home/kevo/ws_moveit2/install/launch_param_builder/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/kevo/robotics_inc/xarm_1s/src/xarm_1s_description"
 }
